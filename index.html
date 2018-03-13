@@ -12,7 +12,14 @@
         <script src="script.js"></script>
         <style>
             .g-signin2{
-                position: center;
+                margin-top:200px;
+                margin-left:500px;
+            }
+            @media only screen and (max-width: 768px) {
+                /* For mobile phones: */
+                [class*="g-signin2"] {
+                margin-left:200px;
+                }
             }
             .data{
                 display:none;
